@@ -9,7 +9,7 @@ metadata:
     argocd/app-name: 'test-app'
     jira.com/project-key: 'BL'
     statuspage.io/components: instance:x6qwhglp64qj,7l83zp7d4yk7,20h4dcgndfkn,2hv6z1ngbl19,c9fq2sv62c73
-    datadoghq.com/graph-token: 6a3d1264591ed5b19285575446fe64ddf5cea3c83420c19d8dcfc31b1ac3995f
+    datadoghq.com/dashboard-url: p.us5.datadoghq.com/sb/85cfa16b-6394-11ef-b68e-a2c6e293d47f-61db6e11810709df35962b3e8c9b6415
 spec:
   type: service
   lifecycle: experimental
