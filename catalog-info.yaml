@@ -8,7 +8,7 @@ metadata:
     backstage.io/kubernetes-id: 'kind-backstage'
     argocd/app-name: 'test-app'
     jira.com/project-key: 'BL'
-    statuspage.io/components: instance:20h4dcgndfkn
+    statuspage.io/components: instance:c9fq2sv62c73
 spec:
   type: service
   lifecycle: experimental
