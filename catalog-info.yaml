@@ -13,6 +13,7 @@ metadata:
     datadoghq.com/graph-token: 6a3d1264591ed5b19285575446fe64ddf5cea3c83420c19d8dcfc31b1ac3995f
     datadoghq.com/site: us5.datadoghq.com
     azure.com/resource-tag: name:postgres
+    sonarqube.org/project-key: value
 spec:
   type: service
   lifecycle: experimental
