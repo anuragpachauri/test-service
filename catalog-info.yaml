@@ -14,8 +14,7 @@ metadata:
     azure.com/resource-tag: name:postgres
     sonarqube.org/project-key: anuragpachauri_test-app
     backstage.io/kubernetes-id: aks-cluster
-    backstage.io/kubernetes-cluster: aks-cluster
-    backstage.io/kubernetes-namespace: default
+
 spec:
   type: service
   lifecycle: experimental
