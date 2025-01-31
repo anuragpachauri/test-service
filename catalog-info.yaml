@@ -5,7 +5,6 @@ metadata:
   description: A simple Node.js service example
   annotations:
     github.com/project-slug: 'anuragpachauri/test-service'
-    backstage.io/kubernetes-id: 'kind-backstage'
     argocd/app-name: 'test-app'
     jira.com/project-key: 'BL'
     statuspage.io/components: mystatuspageinstance:20h4dcgndfkn,l86wp1rcb8kl
@@ -14,6 +13,8 @@ metadata:
     datadoghq.com/site: us5.datadoghq.com
     azure.com/resource-tag: name:postgres
     sonarqube.org/project-key: anuragpachauri_test-app
+    backstage.io/kubernetes-cluster: aks-cluster
+    backstage.io/kubernetes-namespace: default
 spec:
   type: service
   lifecycle: experimental
