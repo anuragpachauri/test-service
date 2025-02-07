@@ -14,6 +14,7 @@ metadata:
     azure.com/resource-tag: name:postgres
     sonarqube.org/project-key: anuragpachauri_test-app
     backstage.io/kubernetes-id: local
+    backstage.io/kubernetes-namespace: "dev-backstgae"
 
 spec:
   type: service
