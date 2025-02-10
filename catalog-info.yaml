@@ -13,8 +13,8 @@ metadata:
     datadoghq.com/site: us5.datadoghq.com
     azure.com/resource-tag: name:postgres
     sonarqube.org/project-key: anuragpachauri_test-app
-    backstage.io/kubernetes-id: local
-    backstage.io/kubernetes-namespace: "dev-backstgae"
+    backstage.io/kubernetes-label-selector: "app.kubernetes.io/name=backstage"
+    backstage.io/kubernetes-namespace: "dev-backstage"
 
 spec:
   type: service
